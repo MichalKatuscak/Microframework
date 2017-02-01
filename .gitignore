@@ -1,11 +1,3 @@
-temp/cache/*
-#deployment
-node_modules
-bower_components
-/assets/dist/*
-/vendor/
-/config.php
-/admin/config.php
-/.idea
-/upload
 .DS_Store
+/.idea
+/adminer.php
