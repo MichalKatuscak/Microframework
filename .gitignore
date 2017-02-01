@@ -8,3 +8,4 @@ bower_components
 /admin/config.php
 /.idea
 /upload
+.DS_Store
