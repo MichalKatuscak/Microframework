@@ -6,14 +6,8 @@ use Katuscak\Component\Routing\Route;
 use App\Controller\HomepageController;
 use App\Controller\LoginController;
 
-// Step 1 - Set autoloading
-include_once __DIR__ . "/autoload.php";
+include_once __DIR__ . "/bootstrap.php";
 
-// Step 2 - Set constants
-define("KATUSCAK_DIR", __DIR__);
-define("KATUSCAK_DIR_CONFIG", KATUSCAK_DIR . "/config");
-
-// Step 3 - Set routes
 $router = Factory::load(Router::class);
 $router->addRoute(
     new Route("homepage", "/", [HomepageController::class, "index"]),
