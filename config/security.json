@@ -1,0 +1,15 @@
+{
+  "roles": {
+    "ROLE_ADMIN": ["ROLE_USER"],
+    "ROLE_USER": ["ROLE_ANNONYMOUS"]
+  },
+  "login_route": "login",
+  "database": {
+    "table": "user",
+    "column_username": "username",
+    "column_password": "password"
+  },
+  "password": {
+    "cost": 14
+  }
+}
